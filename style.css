@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;;
+}
+body{
+    font-family: "Open Sans";
+    color:#000000;
+}
+.nen-xam{
+    background-color: #f1f1f1;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Oswald";
+}
+.den-trang{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+#main-head{
+    display: flex;
+    justify-content: space-between;
+}
+#main-head i{
+    color:#FFFFFF;
+}
+.so1{
+    display: flex;
+}
+.so1 a{
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.hover1:hover{
+    background-color: #f1f1f1!important;
+    color: #000 !important;
+}
+.hover1:hover i{
+    color: #000 !important;
+}
+#main-body{
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto 0;
+    background-color: #fff;
+    border: 1px solid #ccc!important;
+}
+.body-head{
+    padding: 48px 16px;
+}
+.so2{
+    margin: 10px 0;
+}
+.so3{
+    font-size: 24px;
+    text-align: center;
+}
+.so4{
+    font-size: 18px;
+}
+h1.so2{
+    text-align: center;
+    font-size: 48px;
+}
+span.den-trang{
+    padding: 4px;
+    margin: 2px;
+}
+h6.so2{
+    font-size: 15px;
+    text-align: center;
+}
+.sub-body{
+    position: relative;
+    top:0;
+    bottom: 0;
+}
+.sub-body>img{
+    width: 100%;
+}
+.nenxam-chutrang{
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 12px 24px;
+}
+.text-white{
+    padding: 12px 24px;
+    position: absolute;
+    top:38%;
+    left: 0%;
+    color: #FFFFFF;
+}
+.text-white h1.so2{
+    text-align: left;
+}
+b.so2{
+    font-size: 64px;
+}
+.domo{
+    opacity: 0.6;
+}
+#ve{
+    background-color: #00000066;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100px 0 0;
+    display: none;
+}
+#ticket{
+    max-width: 900px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 32px;
+}
+#ticket>h2.so2{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+h2>span>i{
+    padding: 8px 16px;
+}
+#ticket input{
+    width: 100%;
+    padding: 8px;
+}
+#ticket button{
+    width: 100%;
+    padding: 12px 24px;
+    margin: 16px 0 16px;
+}
+.nendo{
+    background-color: #F44336;
+    color: #FFFFFF;
+    border: #F44336;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+.so5{
+    margin: 15px 0;
+}
+.body-item{
+    padding: 12px 24px;
+    margin: 16px 16px 32px;
+    background-color: #FFFFFF;
+}
+.body-item1{
+    padding: 0;
+}
+.body-item2{
+    padding: 16px;
+}
+.body-foot{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 8px 16px;
+}
+#body-foot-left{
+    width: 66.6666%;
+}
+#body-foot-right{
+    width: 33.3333%;
+}
+h5.so2{
+    text-align: center;
+}
+img.body-item2{
+    width: 100%;
+}
+.nentrang-chuden{
+    padding: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+.pad8-16{
+    padding: 8px 16px;
+}
+span.nentrang-chuden{
+    padding: 4px 8px;
+    margin: 0 0 0 4px;
+}
+button{
+    border: 1px solid #ccc;
+}
+.body-item>div.so10{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.ht3 img{
+    width: 90px;
+}
+hr{
+    margin: 50px 0 0;
+}
+.so6{
+    margin: 25px 50px 25px 0;
+    float:left;
+}
+.ht3 > h4.so2{
+    margin-top: 35px;
+    font-size: 20px;
+}
+.ht3{
+    padding-bottom: 25px;
+    display: none;
+}
+.body-item1 img{
+    width: 100%;
+}
+div.so15{
+    padding: 1.5px 16px;
+}
+#body-foot-right h4.so2{
+    font-size: 20px;
+}
+.nen{
+    background-color: #000000;
+}
+.so20{
+    font-size: 20px;
+}
+.body-item2{
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.body-item2 li{
+    padding: 16px;
+    border-bottom:1px solid #ccc ;
+}
+.body-item2 img{
+    width: 50px;
+    float: left;
+    margin: 0px 16px 0 0;
+}
+.hover2:hover
+{
+    background-color: #ccc;
+}
+.body-item1  div.nen-xam
+{
+    padding: 10% 10%;
+    margin: 10px;
+    text-align: center;
+}
+.body-item > div.so16> span{
+    margin: 0 0 16px ;
+    padding: 0 8px;
+    display: inline-block;
+}
+.body-item > div.so16{
+    padding: 0 16px;
+    margin-top: 16px;
+}
+.body-item > div.so16> span.nen-xam{
+    font-size: 13px;
+}
+.so17{
+    display: flex;
+    padding: 8px;
+}
+.so17>div{
+    width: 50%;
+    padding: 8px;
+}
+.so17 img{
+    width: 100%;
+    margin-top: 8px;
+}
+.body-item i{
+    color: #000;
+}
+.hover3:hover i
+{
+    opacity: 0.6;
+}
+.body-item a{
+    padding-left: 8px;
+    padding-right: 0;
+}
+.body-item > #ticket{
+    padding: 16px 16px 0 ;
+}
+#main-foot{
+    padding: 32px;
+    background-color: #616161;
+}
+#main-foot>a{
+    padding: 12px 24px;
+    background-color: #CCCCCC;
+    margin: 0 0 16px;
+    color: #000000;
+    text-decoration: none;
+}
+p.so5 >span> a,p.so5 >span{
+    color: #FFFFFF;
+}
+@media only screen and (max-width:600px) {
+    #main-head{
+        display: none;
+    }
+    #main-body>.sub-body>.text-white>b.so2{
+        display: none;
+    }
+    .text-white{
+        top: 25%;
+    }
+    #ve>#ticket{
+        margin: 0 15px;
+    }
+    .body-foot{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #body-foot-left,#body-foot-right,.body-item{
+        width: 97%;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:600px) {
+    .text-white{
+        top: 20%;
+    }
+    #ve>#ticket{
+        margin: 0 15px;
+    }
+    .body-foot{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #body-foot-left,#body-foot-right,.body-item{
+        width: 100%;
+        margin: 0 0.10%;
+    }
+}

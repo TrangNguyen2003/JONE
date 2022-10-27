@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="nen-xam">
+    <div id="main">
+      <div id="main-head" class="den-trang">
+        <div class="so1">
+          <a class="hover1" href="#" class="hover">
+            <i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a class="hover1" href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a class="hover1" href="#"><i class="fa-brands fa-snapchat"></i></a>
+          <a class="hover1" href="#"><i class="fa-brands fa-flickr"></i></a>
+          <a class="hover1" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="hover1" href="#"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="so1">
+          <a class="hover1" href="#"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+      </div>
+      <div id="main-body">
+        <div class="body-head">
+          <h1 class="so2"><b>JANE BLOGLIFE</b></h1>
+          <h6 class="so2">
+            <b>
+              <span>Welcome to the blog of </span>
+              <span class="den-trang">Jane's world</span>
+            </b>
+          </h6>
+        </div>
+        <div class="sub-body nen-xam">
+          <img src="https://www.w3schools.com/w3images/jane.jpg" alt="Image" />
+          <div class="text-white">
+            <h1 class="so2">Jane's</h1>
+            <b class="so2">FASHION BLOG</b>
+            <br />
+            <button
+              onclick="hienThiVe()"
+              class="domo hover1 nenxam-chutrang so4"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+        <div id="ve">
+          <div id="ticket">
+            <h2 class="so2">
+              <span>SUBSCRIBE</span>
+              <span
+                onclick="hienAnThiVe()"
+                class="hover1"
+                style="margin: 0; display: inline-block; font-size: 20px"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </span>
+            </h2>
+            <p class="so5">
+              Join my mailing list to receive updates on the latest blog posts
+              and other things.
+            </p>
+            <form action="">
+              <input type="text" required placeholder="Enter e-mail" />
+              <button class="hover1 nendo">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="body-foot nen-xam">
+          <div id="body-foot-left">
+            <div class="body-item" style="margin-top: 16px">
+              <h3 class="so2 so3">TITLE HEADING</h3>
+              <h5 class="so2 so4">
+                <span>Title description,</span>
+                <span class="domo">May 2, 2016</span>
+              </h5>
+              <img
+                src="https://www.w3schools.com/w3images/girl_hat.jpg"
+                alt=""
+                class="body-item2"
+              />
+              <p class="so5">
+                <strong>More Hats!</strong>
+                <span>
+                  I am crazy about hats these days. Some text about this blog
+                  entry. Fashion fashion and mauris neque quam, fermentum ut
+                  nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
+                  euismod placerat. Vivamus porttitor magna enim, ac accumsan
+                  tortor cursus at. Phasellus sed ultricies mi non congue ullam
+                  corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae
+                  justo condimentum, porta lectus vitae, ultricies congue
+                  gravida diam non fringilla.</span
+                >
+              </p>
+              <p class="so5">
+                Sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco.
+              </p>
+              <div class="so10">
+                <button
+                  onclick=" thayDoi()"
+                  class="hover2 nentrang-chuden pad8-16 so5"
+                >
+                  <span id="ht1"><i class="fa-solid fa-thumbs-up"></i></span>
+                  <b id="ht2">Like</b>
+                </button>
+                <button onclick="htlist()" class="hover2 den-trang pad8-16 so5">
+                  <span>Replies</span>
+                  <span class="nentrang-chuden">1</span>
+                </button>
+              </div>
+              <div id="ht3" class="ht3">
+                <hr />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>George</span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    May 3, 2015, 6:32 PM</span
+                  >
+                </h4>
+                <p class="so5">Great blog post! Following</p>
+              </div>
+            </div>
+            <div class="body-item">
+              <h3 class="so2 so3">TITLE HEADING</h3>
+              <h5 class="so2 so4">
+                <span>Title description,</span>
+                <span class="domo">April 23, 2016</span>
+              </h5>
+              <img
+                src="https://www.w3schools.com/w3images/man_hat.jpg"
+                alt=""
+                class="body-item2"
+              />
+              <p class="so5">
+                <strong>Hats!</strong>
+                <span> The trend this summer is hats for men!</span>
+              </p>
+              <p class="so5">
+                Some text about this blog entry. Fashion fashion and mauris
+                neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                mattis nunc id lorem euismod placerat. Vivamus porttitor magna
+                enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
+                non congue ullam corper. Praesent tincidunt sedtellus ut rutrum.
+                Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla
+              </p>
+              <div class="so10">
+                <button
+                  onclick=" thayDoi1()"
+                  class="hover2 nentrang-chuden pad8-16 so5"
+                >
+                  <span id="ht9"><i class="fa-solid fa-thumbs-up"></i></span>
+                  <b id="ht10">Like</b>
+                </button>
+                <button
+                  onclick="htlist1()"
+                  class="hover2 den-trang pad8-16 so5"
+                >
+                  <span>Replies</span>
+                  <span class="nentrang-chuden">2</span>
+                </button>
+              </div>
+              <div id="ht4" class="ht3">
+                <hr />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/girl_train.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>Amber </span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    April 26, 2015, 10:52 PM</span
+                  >
+                </h4>
+                <p class="so5">
+                  Love your blog page! Simply the best! Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </p>
+                <br />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/girl.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>Angie</span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    April 23, 2015, 9:12 PM</span
+                  >
+                </h4>
+                <p class="so5">Love hats!!</p>
+              </div>
+            </div>
+            <div class="body-item" style="margin-bottom: 16px">
+              <h3 class="so2 so3">TITLE HEADING</h3>
+              <h5 class="so2 so4">
+                <span>Title description,</span>
+                <span class="domo"> April 7, 2016</span>
+              </h5>
+              <img
+                src="https://www.w3schools.com/w3images/runway.jpg"
+                alt=""
+                class="body-item2"
+              />
+              <p class="so5">
+                <strong>Dont miss!</strong>
+                <span>
+                  The runway in New York City this weekend is gonna be
+                  legendary!</span
+                >
+              </p>
+              <p class="so5">
+                Some text about this blog entry. Fashion fashion and mauris
+                neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                mattis nunc id lorem euismod placerat. Vivamus porttitor magna
+                enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
+                non congue ullam corper. Praesent tincidunt sedtellus ut rutrum.
+                Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.
+              </p>
+              <div class="so10">
+                <button
+                  onclick=" thayDoi2()"
+                  class="hover2 nentrang-chuden pad8-16 so5"
+                >
+                  <span id="ht6"><i class="fa-solid fa-thumbs-up"></i></span>
+                  <b id="ht7">Like</b>
+                </button>
+                <button
+                  onclick="htlist2()"
+                  class="hover2 den-trang pad8-16 so5"
+                >
+                  <span>Replies</span>
+                  <span class="nentrang-chuden">3</span>
+                </button>
+              </div>
+              <div id="ht5" class="ht3">
+                <hr />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/girl_mountain.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>Jane</span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    April 10, 2015, 7:22 PM</span
+                  >
+                </h4>
+                <p class="so5">
+                  That was a great runway show! Thanks for everything.
+                </p>
+                <br />
+                <br />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/boy.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>John</span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    April 8, 2015, 10:32 PM</span
+                  >
+                </h4>
+                <p class="so5">
+                  Keep up the GREAT work! I am cheering for you!! Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt.
+                </p>
+                <br />
+                <img
+                  class="so6"
+                  src="https://www.w3schools.com/w3images/girl_hood.jpg"
+                  alt=""
+                />
+                <h4 class="so2">
+                  <span>Anja</span>
+                  <span style="font-size: 15px; margin-left: 2px" class="domo">
+                    April 7, 2015, 9:12 PM</span
+                  >
+                </h4>
+                <p class="so5">Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+          <div id="body-foot-right">
+            <div class="body-item body-item1 nen" style="margin-top: 16px">
+              <img
+                src="https://www.w3schools.com/w3images/avatar_girl2.jpg"
+                alt=""
+              />
+              <div class="den-trang so15">
+                <h4 class="so2">My Name</h4>
+                <p class="so5">
+                  Just me, myself and I, exploring the universe of uknownment. I
+                  have a heart of love and a interest of lorem ipsum and mauris
+                  neque quam blog. I want to share my world with you.
+                </p>
+              </div>
+            </div>
+            <div class="body-item body-item2">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Popular Posts
+                </h4>
+              </div>
+              <div>
+                <ul>
+                  <li class="hover2">
+                    <img
+                      src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+                      alt=""
+                    />
+                    <p class="so4">Denim</p>
+                    <p>Sed mattis nunc</p>
+                  </li>
+                  <li class="hover2">
+                    <img
+                      src="https://www.w3schools.com/w3images/bandmember.jpg"
+                      alt=""
+                    />
+                    <p class="so4">Sweaters</p>
+                    <p>Praes tinci sed</p>
+                  </li>
+                  <li class="hover2">
+                    <img
+                      src="https://www.w3schools.com/w3images/workshop.jpg"
+                      alt=""
+                    />
+                    <p class="so4">Workshop</p>
+                    <p>Ultricies congue</p>
+                  </li>
+                  <li class="hover2">
+                    <img
+                      src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+                      alt=""
+                    />
+                    <p class="so4">Trends</p>
+                    <p>Lorem ipsum dipsum</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="body-item body-item1">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Advertise
+                </h4>
+              </div>
+              <div class="nentrang-chuden">
+                <div class="nen-xam">Your AD Here</div>
+              </div>
+            </div>
+            <div class="body-item body-item1">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Tags
+                </h4>
+              </div>
+              <div class="so16">
+                <span class="den-trang">Fashion </span>
+                <span class="nen-xam">New York </span>
+                <span class="nen-xam">London</span>
+                <span class="nen-xam">Hats</span>
+                <span class="nen-xam">Norway</span>
+                <span class="nen-xam"> Sweaters </span>
+                <span class="nen-xam">Ideas</span>
+                <span class="nen-xam"> Deals </span>
+                <span class="nen-xam">Accessories</span>
+                <span class="nen-xam">News</span>
+                <span class="nen-xam">Clothing</span>
+                <span class="nen-xam">Shopping</span>
+                <span class="nen-xam">Jeans</span>
+                <span class="nen-xam">Trends</span>
+              </div>
+            </div>
+            <div class="body-item body-item1">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Inspiration
+                </h4>
+              </div>
+              <div class="so17">
+                <div>
+                  <img
+                    src="https://www.w3schools.com/w3images/jeans.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="https://www.w3schools.com/w3images/team1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://www.w3schools.com/w3images/avatar_hat.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="https://www.w3schools.com/w3images/team4.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="body-item body-item1">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Follow Me
+                </h4>
+              </div>
+              <div class="so1">
+                <a class="hover3 so20" href="#" class="hover">
+                  <i class="fa-brands fa-square-facebook"></i
+                ></a>
+                <a class="hover3 so20" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a class="hover3 so20" href="#"
+                  ><i class="fa-brands fa-snapchat"></i
+                ></a>
+                <a class="hover3 so20" href="#"
+                  ><i class="fa-brands fa-flickr"></i
+                ></a>
+                <a class="hover3 so20" href="#"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a class="hover3 so20" href="#"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+            <div class="body-item body-item1" style="margin-bottom: 16px">
+              <div class="den-trang">
+                <h4
+                  class="pad8-16 so20"
+                  style="padding-top: 18px; padding-bottom: 18px"
+                >
+                  Subscribe
+                </h4>
+              </div>
+              <div id="ticket">
+                <p class="so2">
+                  Join my mailing list to receive updates on the latest blog
+                  posts and other things.
+                </p>
+                  <input type="text" placeholder="Enter e-mail" />
+                  <button onclick=" hienThiVe()" class="hover1 nendo">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main-foot">
+        <br>
+        <a class="nenden-chutrang hover2" href="#main-head">
+          <i class="fa-solid fa-arrow-up"></i>
+          <span>To the top</span>
+        </a>
+        <br> <br>
+        <p class="so5">
+          <span>Powered by</span>
+          <span><a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></span>
+        </p>
+      </div>
+    </div>
+    <script>
+      function hienThiVe() {
+        document.getElementById("ve").style.display = "block";
+      }
+      function hienAnThiVe() {
+        document.getElementById("ve").style.display = "none";
+      }
+      function thayDoi() {
+        document.getElementById("ht1").innerHTML =
+          '<i class="fa-solid fa-check"></i>';
+        document.getElementById("ht2").innerHTML = "Liked";
+      }
+      function thayDoi1() {
+        document.getElementById("ht9").innerHTML =
+          '<i class="fa-solid fa-check"></i>';
+        document.getElementById("ht10").innerHTML = "Liked";
+      }
+      function thayDoi2() {
+        document.getElementById("ht6").innerHTML =
+          '<i class="fa-solid fa-check"></i>';
+        document.getElementById("ht7").innerHTML = "Liked";
+      }
+      function htlist() {
+        if (document.getElementById("ht3").style.display.endsWith("none")) {
+          document.getElementById("ht3").style.display = "block";
+        } else {
+          document.getElementById("ht3").style.display = "none";
+        }
+      }
+      function htlist1() {
+        if (document.getElementById("ht4").style.display.endsWith("none")) {
+          document.getElementById("ht4").style.display = "block";
+        } else {
+          document.getElementById("ht4").style.display = "none";
+        }
+      }
+      function htlist2() {
+        if (document.getElementById("ht5").style.display.endsWith("none")) {
+          document.getElementById("ht5").style.display = "block";
+        } else {
+          document.getElementById("ht5").style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
